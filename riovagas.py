@@ -72,7 +72,7 @@ def preencher_vaga(url):
             form['forma_envio'] = 'curriculo'
             form['curriculo_candidato'] = cv_txt
         except:
-            break;
+            pass
 
     session.submit_form(form)
 
