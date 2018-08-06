@@ -57,7 +57,7 @@ Sempre trabalhei na área de Tecnologia da Informação voltado a Infraestrutura
 # caso contrário, a versão em PDF será priorizada.
 #
 #
-cv_pdf = '/cv.pdf'
+cv_pdf = 'cv.pdf'
 #
 #
 #
