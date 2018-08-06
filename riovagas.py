@@ -74,7 +74,8 @@ def preencher_vaga(url):
         except:
             pass
 
-    session.submit_form(form)
+        action = form.submit_fields['form-candidato']
+	self.session.submit_form(form, submit=action)
 
 
 exec(file_handler('riovagas.form', 'r'))
